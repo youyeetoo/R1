@@ -81,8 +81,8 @@ For customization needs, please contact: sales@youyeetoo.com
 |26| ADC4 |||||1.8V|  |  |SARADC_IN4|| | |  |  |||||
 |27| I2C1_SDA_M4 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k |1.8V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_D3 | I2S0_SDI1 || PDM0_SDI3_M0 | I2C1_SDA_M4 | PWM1_M1 | UART4_RX_M0 | SPI1_CS0_M2 |||
 |28| I2C1_SCL_M4 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k |1.8V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_D2 | I2S0_SDO3 | I2S0_SDI2 | PDM0_SDI2_M0 | I2C1_SCL_M4 | PWM0_M1 | UART4_TX_M0 | SPI1_CLK_M2 |||
-|29| GND |||||  |  ||| | |  |  |||||||
-|30| GND |||||  |  ||| | |  |  |||||||
+|29| GND |||||  |  ||| | |  |  |||||
+|30| GND |||||  |  ||| | |  |  |||||
 
 
 # R1 schematic and R1 2D image
