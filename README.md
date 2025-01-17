@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/76bb59ae-d355-41f1-8053-2333af67746a)
+![image](https://github.com/user-attachments/assets/36d99a84-25aa-4bc8-8bb0-12cc72161f89)
 
 # R1
 The youyeetoo R1 is an Single Board Computer (SBC) designed by youyeetoo.com for the AIOT (AI of Things) market.Despite its compact size, it boasts powerful features, powered by the flagship RK3588s octa-core 64-bit processor from Rockchip, built on an 8nm process, with a high clock speed of up to 2.4GHz. It integrates an ARM Mali-G610 MP4 GPU and features a built-in NPU (Neural Processing Unit) with 6 TOPS (Trillions of Operations Per Second) of AI computing power. It has faster speeds and lower power consumption, making it suitable for a wide range of AI application scenarios
