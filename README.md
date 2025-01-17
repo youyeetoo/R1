@@ -7,13 +7,11 @@ Although the R1 SBC is only the size of a card (100 * 69.3mm), but it has a rich
 
 The most distinctive feature is that the R1 SBC is also equipped with an NFC(near-field communication) chip. You can use a mobile phone (android/IOS) to touch the motherboard to transfer data to each other, the youyeetoo team provides application example tutorials.
 
+![image](https://github.com/user-attachments/assets/f845aca6-6b93-49f9-a60c-a3cb5d36182d)
 
-
-![接口图_背面(英文)2.jpg](/r1/接口图_背面(英文)2.jpg =800x)
-![对比图.jpg](/r1/对比图.jpg)
 >If there are any technical problems, please contact: support@youyeetoo.com
 For customization needs, please contact: sales@youyeetoo.com 
-{.is-info}
+
 ## Specification
 |Item|descriptions|
 |:----------:|:-----------|
@@ -51,24 +49,24 @@ For customization needs, please contact: sales@youyeetoo.com
 ## Interface Definition
 - 30PIN extension pin
 
-![微信截图_20240624170726.png](/r1/30pin/微信截图_20240624170726.png)
+![image](https://github.com/user-attachments/assets/b849ed02-3703-44ff-90d7-a20f92a97d6c)
 
 |Num| Pin | Pin type | Default Pin type | Default IO Pull | Pull Resistor,Normal |Voltage/V|Support Drive strength|Default IO Driver strength| Func1 | Func2 | Func3 | Func4| Func5 | Func6 |Func7 | Func8 | Func9 | Func10 |
-| :--- | :---  | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |:--- |:--- |:--- |:--- |:--- |:--- |
-|1| DC_5V |||||5V |  ||| | |  |  |||| | |
-|2| VCC3V3_SYS ||||| 3.3V |  ||| | |  |  |||||
-|3| GND | |||| |  ||| | |  |  |||||
-|4| GND | |||| |  ||| | |  |  |||||
-|5| I2C3_SCL_M2 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA|GPIO4_A4 | CIF_D4 |BT1120_D4| | |I2C3_SCL_M2 |UART0_RX_M2  |  SPI2_MISO_M1|||
-|6| UART5_RX_M1/CAN2_TX_M0 |I/O| I | UP | 1.8V:  Pull-up/down:10k-50k3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C5 | CIF_D9 |||SPI3_CS1_M3 | FSPI_CS1N_M2 | UART5_RX_M1 |  | CAN2_TX_M0 ||
-|7| I2C3_SDA_M2 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO4_A5 | CIF_D5 | BT1120_D5 || I2S1_SDI0_M0 | I2C3_SDA_M2 | UART3_TX_M2 | SPI2_MOSI_M1 |||
-|8| UART5_TX_M1/CAN2_RX_M0 |I/O| I | UP | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C4 | CIF_D8 ||| SPI3_CS0_M3 | FSPI_CS0N_M2 | UART5_TX_M1 | CAN2_RX_M0 |||
-|9|GPIO1_A6 |I/O|I|DOWN| 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA|GPIO1_A6|  |  ||SPI2_CLK_M0| | |  |  |||
-|10| UART7_TX_M1 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C0 | GMAC1_PPSTRIG ||| SPI1_MISO_M1 | I2C3_SDA_M1 | UART7_TX_M1 ||||
-|11| GPIO1_A4 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_A4 |  ||| | SPI2_MISO_M0 |  |  |||
-|12| UART7_RX_M1 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C1 | GMAC1_PPSCLK ||| SPI1_CLK_M1 | | UART7_RX_M1 |  |||
-|13| GPIO1_A7 |I/O| I | UP | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_A7 |  | PDM1_SDI0_M1 || PCIE20X1_1_PERSTN_M2 | SPI2_CS0_M0 | PWM3_IR_M3 |  |||
-|14| UART9_RX_M2 |I/O| I | DOWN |1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k|3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_D4 | MCU_JTAG_TCK_M1 | HDMI_TX0_HPD_M1 || SPI0_CS0_M3 | | UART9_RX_M2 |  |||
+|:-----------|:-----------|:-----------|:---|:---|:--- |:--- |:--- |:--- |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+|1| DC_5V | |  | | |5V |  | | | | |  |  | | | | | |
+|2| VCC3V3_SYS | | | | | 3.3V |  | | | | |  |  | | | | |
+|3| GND | | | | | |  | | | | |  |  | | | | |
+|4| GND | | | | | |  | | | | |  |  | | | | |
+|5| I2C3_SCL_M2 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA|GPIO4_A4 | CIF_D4 |BT1120_D4| | |I2C3_SCL_M2 |UART0_RX_M2  |  SPI2_MISO_M1| | |
+|6| UART5_RX_M1/CAN2_TX_M0 |I/O| I | UP | 1.8V:  Pull-up/down:10k-50k3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C5 | CIF_D9 | | |SPI3_CS1_M3 | FSPI_CS1N_M2 | UART5_RX_M1 |  | CAN2_TX_M0 | |
+|7| I2C3_SDA_M2 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO4_A5 | CIF_D5 | BT1120_D5 || I2S1_SDI0_M0 | I2C3_SDA_M2 | UART3_TX_M2 | SPI2_MOSI_M1 | | |
+|8| UART5_TX_M1/CAN2_RX_M0 |I/O| I | UP | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C4 | CIF_D8 ||| SPI3_CS0_M3 | FSPI_CS0N_M2 | UART5_TX_M1 | CAN2_RX_M0 | | |
+|9|GPIO1_A6 |I/O|I|DOWN| 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA|GPIO1_A6|  |  | |SPI2_CLK_M0| | |  |  | | |
+|10| UART7_TX_M1 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C0 | GMAC1_PPSTRIG | | | SPI1_MISO_M1 | I2C3_SDA_M1 | UART7_TX_M1 | | | |
+|11| GPIO1_A4 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_A4 |  | | | | SPI2_MISO_M0 |  |  | | |
+|12| UART7_RX_M1 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_C1 | GMAC1_PPSCLK | | | SPI1_CLK_M1 | | UART7_RX_M1 |  | | |
+|13| GPIO1_A7 |I/O| I | UP | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k |3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_A7 |  | PDM1_SDI0_M1 | | PCIE20X1_1_PERSTN_M2 | SPI2_CS0_M0 | PWM3_IR_M3 |  | | |
+|14| UART9_RX_M2 |I/O| I | DOWN |1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k|3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO3_D4 | MCU_JTAG_TCK_M1 | HDMI_TX0_HPD_M1 || SPI0_CS0_M3 | | UART9_RX_M2 |  | | |
 |15| GPIO1_B1_d |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k|3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA | GPIO1_B1 |  | DM1_SDI2_M1 || | SPI0_MISO_M2 |  |  |||
 |16| UART9_TX_M2 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k 3.3V:  Pull-up/down:10k-100k|3.3V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA | GPIO3_D5 | MCU_JTAG_TMS_M1 ||| SPI0_CS1_M3 | | UART9_TX_M2 |  |||
 |17| GPIO1_D5 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k |1.8V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_D5 |  || PDM0_SDI0_M0 | | |  | SPI1_CS1_M2  |||
@@ -83,8 +81,9 @@ For customization needs, please contact: sales@youyeetoo.com
 |26| ADC4 |||||1.8V|  |  |SARADC_IN4|| | |  |  |||||
 |27| I2C1_SDA_M4 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k |1.8V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_D3 | I2S0_SDI1 || PDM0_SDI3_M0 | I2C1_SDA_M4 | PWM1_M1 | UART4_RX_M0 | SPI1_CS0_M2 |||
 |28| I2C1_SCL_M4 |I/O| I | DOWN | 1.8V:  Pull-up/down:10k-50k |1.8V|3mA,4.5mA,6mA,7.5mA,9mA,12mA|7.5mA| GPIO1_D2 | I2S0_SDO3 | I2S0_SDI2 | PDM0_SDI2_M0 | I2C1_SCL_M4 | PWM0_M1 | UART4_TX_M0 | SPI1_CLK_M2 |||
-|29| GND |||||  |  ||| | |  |  |||||
-|30| GND |||||  |  ||| | |  |  |||||
+|29| GND |||||  |  ||| | |  |  |||||||
+|30| GND |||||  |  ||| | |  |  |||||||
+
 
 # R1 schematic and R1 2D image
 - schematic:
